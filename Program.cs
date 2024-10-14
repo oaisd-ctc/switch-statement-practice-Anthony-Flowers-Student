@@ -10,7 +10,7 @@ public class Program{
             Console.WriteLine("That number is not in range, please try again");
             Main();
         }
-        else if (input <= 1 || input <= 10) 
+        else if (input <= 1 && input <= 10) 
         {
             switch (input) 
             {
